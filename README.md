@@ -1,8 +1,9 @@
 # Open Brainfuck Interpreter (OBI)
-A small and lightweight (≈ 4KB) interpreter for the [Brainfuck language](https://en.wikipedia.org/wiki/Brainfuck "Brainfuck language") written in Python in under 2 hours.
-##Features
+A small and lightweight *(≈ 4KB)* interpreter for the [Brainfuck language](https://en.wikipedia.org/wiki/Brainfuck "Brainfuck language") written in Python in under 2 hours.
+## Features
 - **A Command Line Argument based interpreter**
 - **Supports comments**
+- **Always has the highground**
 - **Supports error detection for:-**
 	- Unbalanced loops
 	- Unexpected Instruction in code
@@ -10,8 +11,7 @@ A small and lightweight (≈ 4KB) interpreter for the [Brainfuck language](https
 	- Inputs larger than 1 Byte
 	- Trying to to go beyond the start of memory tape
 - **Uses dyanmic memory cell array**
-- **Cell-size 1 Byte**
-- **Always has the highground**
+- **Cell-size 1 Byte (as per convention)** 
 - **Written in pure Python**
 
 ## Prequisites
@@ -33,9 +33,10 @@ In compliance with the brainfuck conventions, 1 ascii character is supported as 
 *NOTE: This has to be kept in mind as this break arithematic operations if the solution is greater than 10. Some workaround has to be implemented to prevent overflow and return of garbage values.*
 ## Examples
 One "Hello world" program is included in the '/Test bf file' folder to test the interpreter.
-Though some examples are available at [this github link](https://github.com/ryantenney/brainfuck/tree/master/examples "this") or at this really great website [brainfuck.org](http://brainfuck.org/ "brainfuck.org")
+Though some examples are available at [this github page](https://github.com/ryantenney/brainfuck/tree/master/examples "this") or at this really great website [brainfuck.org](http://brainfuck.org/ "brainfuck.org").
 
 
 ## Author
 Kinshuk Dua
+
 [Github](http://https://github.com/kinshukdua/ "website")
