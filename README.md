@@ -2,7 +2,7 @@
 A small and lightweight *(≈ 4KB)* interpreter for the [Brainfuck language](https://en.wikipedia.org/wiki/Brainfuck "Brainfuck language") written in Python in under 2 hours.
 ## Features
 - **A Command Line Argument based interpreter**
-- **Supports comments **
+- **Supports comments**
 - **Always has the highground**
 - **Supports error detection for:-**
 	- Unbalanced loops
@@ -32,7 +32,7 @@ In compliance with the brainfuck conventions, 1 ascii character is supported as 
 
 *NOTE: This has to be kept in mind as this break arithematic operations if the solution is greater than 10. Some workaround has to be implemented to prevent overflow and return of garbage values.*
 ## Examples
-One "Hello world" program is included in the '/Test bf file' folder to test the interpreter.
+One "Hello world" program is included in the 'examples' folder to test the interpreter.
 Though some examples are available at [this github page](https://github.com/ryantenney/brainfuck/tree/master/examples "this") or at this really great website [brainfuck.org](http://brainfuck.org/ "brainfuck.org").
 
 
