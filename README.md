@@ -2,7 +2,7 @@
 A small and lightweight *(≈ 4KB)* interpreter for the [Brainfuck language](https://en.wikipedia.org/wiki/Brainfuck "Brainfuck language") written in Python in under 2 hours.
 ## Features
 - **A Command Line Argument based interpreter**
-- **Supports comments**
+- **Supports comments **
 - **Always has the highground**
 - **Supports error detection for:-**
 	- Unbalanced loops
